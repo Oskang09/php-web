@@ -36,6 +36,8 @@ a simple php codebase for minimalist functionality. using mysqli as database dri
 
 ### Initiate a database connection 
 
+Database connection will store as variable `$conn`. so just use `mysqli_query($conn, $your_query);` will do.
+
 ```php
 <?php define("PAGEACCESS", true); ?>
 <?php require_once __DIR__ . "/../lib/database.php"; ?>
